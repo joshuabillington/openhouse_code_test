@@ -1,7 +1,6 @@
 import SimpleCard from '../SimpleCard'; 
 import React, { FunctionComponent } from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
-import { useState } from 'react'
 
 type DisplayCardsProps = {
     communities: Array<any>,
