@@ -26,8 +26,8 @@ const SimpleCard: FunctionComponent<CardProps> = ({img, title, homes, id}) => {
     <Card className='simple-card'>
     <Card.Img variant="top" src={img} style={{borderRadius: '15px 15px 0 0', width: '500px', height: '350px', objectFit: 'cover' }} alt='image of' />
     <Card.Body>
-    <Card.Title style={{fontSize: '1.5em', color: '#606060', fontWeight: '200'}}> {title} </Card.Title>
-    <Card.Text style={{ color: '#606060', fontWeight: '600', fontSize: '2em'}}>
+    <Card.Title style={{fontSize: '1.5em', color: '#606060'}}> {title} </Card.Title>
+    <Card.Text style={{ color: '#606060', fontSize: '2em'}}>
       Average Price: ${avgPrice}
     </Card.Text>
     </Card.Body>
